@@ -1,23 +1,14 @@
 @import 'custom/vendors/juice';
 
-//corrects padding issue on exploror 11
-//html,body
-//{
-//
-//}
 
-//.heading-font-heavy{
-//  font-family: 'Montserrat', sans-serif;
-//  font-weight:700;
-//  font-size: rem-calc(40px);
-//}
-//
-//.heading-font-light{
-//  font-family: 'Montserrat', sans-serif;
-//  font-weight:300;
-//  font-size: rem-calc(40px);
-//}
-//
-//.colour-primary{
-// color: $primary;
-//}
+//googlefont
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+section{
+  margin: 175px 0;
+}
+
+h1, h2, h3, h4{
+  text-align: center;
+}
